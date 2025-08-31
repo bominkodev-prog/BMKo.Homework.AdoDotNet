@@ -35,9 +35,28 @@
 //}
 
 
+//using BMKo.Homework.AdoDotNet;
+
+//Appdbcontent app   = new Appdbcontent();
+
+//Console.WriteLine("data is reding");
+//app.Read();
+
+
 using BMKo.Homework.AdoDotNet;
 
-Appdbcontent app   = new Appdbcontent();
+appservices app = new appservices();
 
-Console.WriteLine("data is reding");
+
+Console.WriteLine("data is reading");
 app.Read();
+
+Console.WriteLine("data is creating");
+app.Write();
+
+
+Console.WriteLine("data is updating");
+app.Update();
+
+Console.WriteLine("data is deleting");
+app.Delete();
